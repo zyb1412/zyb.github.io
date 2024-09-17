@@ -1,0 +1,60 @@
+/* styles.css */
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery-large img {
+    max-width: 80%; /* 大图片宽度，可根据需要调整 */
+    height: auto;
+    display: block;
+    margin-bottom: 20px; /* 大图片与小图片之间的间隔 */
+    position: relative; /* 为旋转定位 */
+    width: 100%; /* 确保大图片容器有足够的宽度 */
+    margin: 0 auto;
+}
+
+.gallery-thumbnails {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* 小图片之间的间隔 */
+}
+
+.thumbnail {
+    width: 100px; /* 小图片的宽度 */
+    height: auto;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.thumbnail:hover {
+    opacity: 0.7;
+}
+
+/* 在 styles.css 中添加以下样式 */
+.controls {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.controls button {
+    margin-right: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+
+  body {
+    background-color: #f0f8ff; /* 浅蓝色背景 */
+}
+h1 {
+    color: #4b0082; /* 靛蓝色文字 */
+}
+p {
+    color: #556b2f; /* 棕绿色文字 */
+}
